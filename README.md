@@ -117,6 +117,8 @@ services:
     environment:
       - DATABASE_URL=postgresql://postgres:postgres@db:5432/userdb
     restart: always
+    depends_on:
+      - db
     networks:
       - app_network
 
