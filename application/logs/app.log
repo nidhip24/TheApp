@@ -1,3 +1,19 @@
-2025-02-17 02:23:59,558 - WARNING - User not found - ID: 123
-2025-02-17 02:25:51,385 - INFO - User created, ID: 1, Email: john@example.com
-2025-02-17 02:25:58,324 - INFO - User retrieved - ID: 1
+2025-02-17 02:26:14,864 - INFO - User retrieved - ID: 1
+2025-02-17 02:26:15,540 - INFO - User retrieved - ID: 1
+2025-02-17 02:26:15,720 - INFO - User retrieved - ID: 1
+2025-02-17 02:26:15,909 - INFO - User retrieved - ID: 1
+2025-02-17 02:26:16,028 - INFO - User retrieved - ID: 1
+2025-02-17 02:26:34,964 - INFO - User retrieved - ID: 1
+2025-02-17 02:26:35,115 - INFO - User retrieved - ID: 1
+2025-02-17 02:26:35,328 - INFO - User retrieved - ID: 1
+2025-02-17 02:26:35,478 - INFO - User retrieved - ID: 1
+2025-02-17 02:39:04,089 - ERROR - Error creating user: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "ix_users_email"
+DETAIL:  Key (email)=(john@example.com) already exists.
+
+[SQL: INSERT INTO users (name, email, created_at) VALUES (%(name)s, %(email)s, %(created_at)s) RETURNING users.id]
+[parameters: {'name': 'John Doe', 'email': 'john@example.com', 'created_at': datetime.datetime(2025, 2, 17, 2, 39, 4, 87824)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-02-17 02:39:18,932 - INFO - User retrieved - ID: 1
+2025-02-17 02:39:40,772 - INFO - User retrieved - ID: 1
+2025-02-17 03:16:30,900 - INFO - User created, ID: 2, Email: john@example.com
+2025-02-17 03:57:19,654 - INFO - User retrieved - ID: 1
