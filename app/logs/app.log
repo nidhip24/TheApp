@@ -17,3 +17,9 @@ DETAIL:  Key (email)=(john@example.com) already exists.
 2025-02-17 02:39:40,772 - INFO - User retrieved - ID: 1
 2025-02-17 03:16:30,900 - INFO - User created, ID: 2, Email: john@example.com
 2025-02-17 03:57:19,654 - INFO - User retrieved - ID: 1
+2025-02-17 04:20:03,808 - INFO - User retrieved - ID: 1
+2025-02-17 04:20:04,416 - INFO - User retrieved - ID: 1
+2025-02-17 04:20:04,923 - INFO - User retrieved - ID: 1
+2025-02-17 04:20:08,122 - WARNING - User not found - ID: 2
+2025-02-17 04:20:08,915 - WARNING - User not found - ID: 2
+2025-02-17 04:20:21,285 - WARNING - User not found - ID: 2
