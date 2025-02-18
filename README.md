@@ -158,8 +158,6 @@ events {
 http {
     upstream web_servers {
         server web:8080;
-        server web_1:8080;
-        server web_2:8080;
     }
 
     server {
