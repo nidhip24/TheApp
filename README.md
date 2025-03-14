@@ -193,4 +193,3 @@ http {
 3. **Database Security**: The PostgreSQL container is configured with a secure password and environment variables for authentication.
 
 ---
-
